@@ -16,7 +16,9 @@ export class NavDropdownService {
   items:NavItem[];
   constructor(private http: HttpClient) { }
   
-  set_categories(categories:NavCategory[]){}
+  set_categories(categories:NavCategory[]){
+    console.log(categories);
+  }
   get_categories():Observable<NavCategory[]>{
     return this.http.get<NavCategory[]>(this.categories)
     .pipe(
