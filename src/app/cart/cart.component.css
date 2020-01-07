@@ -1,0 +1,43 @@
+.dropcart{font-size:15px;width:320px;font-weight:400;color:#3d464d;background:#fff;box-shadow:0 1px 15px rgba(0,0,0,.25)}@media (-ms-high-contrast:none),screen and (-ms-high-contrast:active){.dropcart{box-shadow:0 0 0 1px rgba(0,0,0,.15)}}.dropcart__products-list{padding:20px 16px}.dropcart__product{display:-ms-flexbox;display:flex}.dropcart__product+.dropcart__product{margin-top:24px}.dropcart__product-image{width:70px;-ms-flex-negative:0;flex-shrink:0}.dropcart__product-image img{max-width:100%}.dropcart__product-name{margin-top:-2px;line-height:18px;font-size:15px}.dropcart__product-name a{color:inherit;transition:.15s}.dropcart__product-name a:hover{color:#1a66ff}.dropcart__product-info{margin:0 10px 0 16px;-ms-flex-positive:1;flex-grow:1}.dropcart__product-options{list-style:none;margin:3px 0 0;padding:0;font-size:13px;line-height:16px;color:#999}.dropcart__product-meta{margin-top:5px;font-size:13px}.dropcart__product-price{font-size:14px;font-weight:700}.dropcart__product-remove{margin-right:-6px;margin-top:-6px;-ms-flex-negative:0;flex-shrink:0}.dropcart__totals{border-top:1px solid #ebebeb;line-height:24px;padding:16px 20px 0}.dropcart__totals th{padding-right:16px}.dropcart__totals td{text-align:right}.dropcart__totals table{width:100%}.dropcart__buttons{display:-ms-flexbox;display:flex;margin-top:4px;padding:20px}
+.dropcart__buttons>*{-ms-flex-positive:1;flex-grow:1}.dropcart__buttons>:first-child{margin-right:8px}
+.btn{border-radius:2px;transition:all .1s ease-in-out;font-size:1rem;height:calc(2.25rem + 2px);line-height:1.5;padding:.375rem 1.25rem;font-weight:500}
+.btn.btn-svg-icon{width:calc(2.25rem + 2px)}
+.btn-lg{font-size:1.125rem;height:calc(2.75rem + 2px);padding:.8125rem 2rem;line-height:1;font-weight:500}
+.btn-lg.btn-svg-icon{width:calc(2.75rem + 2px)}
+.btn-xl{font-size:1.375rem;height:calc(3.625rem + 2px);padding:1.125rem 3rem;line-height:1;font-weight:500}
+.btn-xl.btn-svg-icon{width:calc(3.625rem + 2px)}
+.btn-sm{font-size:.875rem;height:calc(1.875rem + 2px);line-height:1.25;padding:.375rem 1rem;font-weight:500}
+.btn-sm.btn-svg-icon{width:calc(1.875rem + 2px)}
+.btn-xs{font-size:.8125rem;height:calc(1.5rem + 2px);line-height:1.25;padding:.25rem .5625rem;font-weight:500}
+.btn-xs.btn-svg-icon{width:calc(1.5rem + 2px)}.btn-svg-icon{padding:0;position:relative}
+.btn-svg-icon svg{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%)}
+.btn-svg-icon--fake-svg .fake-svg-icon{transition:all .1s ease-in-out;display:none}
+@supports (-ms-ime-align:auto){.btn-svg-icon--fake-svg svg{display:none}
+.btn-svg-icon--fake-svg .fake-svg-icon{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);display:block;-ms-flex-align:center;align-items:center;-ms-flex-pack:center;justify-content:center}}
+.btn-primary.focus,.btn-primary:focus,.btn-primary:hover{border-color:#3d464d;background:#3d464d;color:#fff;fill:#fff}
+.btn-primary.focus .fake-svg-icon,.btn-primary:focus .fake-svg-icon,.btn-primary:hover .fake-svg-icon{color:#fff}
+.btn-primary.focus,.btn-primary:focus{box-shadow:none}
+.btn-primary:not(:disabled):not(.disabled).active,.btn-primary:not(:disabled):not(.disabled):active{border-color:#546069;background:#546069;color:#fff;fill:#fff}
+.btn-primary:not(:disabled):not(.disabled).active .fake-svg-icon,.btn-primary:not(:disabled):not(.disabled):active .fake-svg-icon{color:#fff}
+.btn-primary:not(:disabled):not(.disabled).active:focus,.btn-primary:not(:disabled):not(.disabled):active:focus{box-shadow:none}
+.btn-primary,.btn-primary.disabled,.btn-primary:disabled{border-color:#ffd333;background:#ffd333;color:#3d464d;fill:#3d464d}
+.btn-primary.disabled .fake-svg-icon,.btn-primary .fake-svg-icon,.btn-primary:disabled .fake-svg-icon{color:#3d464d}
+.btn-primary.btn-loading:not(:disabled):not(.disabled),.btn-primary.btn-loading:not(:disabled):not(.disabled).active,.btn-primary.btn-loading:not(:disabled):not(.disabled):active{cursor:default;border-color:#ffd333;background:#ffd333}
+.btn-secondary.focus,.btn-secondary:focus,.btn-secondary:hover{border-color:#3d464d;background:#3d464d;color:#fff;fill:#fff}
+.btn-secondary.focus .fake-svg-icon,.btn-secondary:focus .fake-svg-icon,.btn-secondary:hover .fake-svg-icon{color:#fff}
+.btn-secondary.focus,.btn-secondary:focus{box-shadow:none}
+.btn-secondary:not(:disabled):not(.disabled).active,.btn-secondary:not(:disabled):not(.disabled):active{border-color:#546069;background:#546069;color:#fff; fill:#fff}
+.btn-secondary:not(:disabled):not(.disabled).active .fake-svg-icon,.btn-secondary:not(:disabled):not(.disabled):active .fake-svg-icon{color:#fff}
+.btn-secondary:not(:disabled):not(.disabled).active:focus,.btn-secondary:not(:disabled):not(.disabled):active:focus{box-shadow:none}
+.btn-secondary,.btn-secondary.disabled,.btn-secondary:disabled{border-color:#f0f0f0;background:#f0f0f0;color:#3d464d;fill:#3d464d}
+.btn-secondary.disabled .fake-svg-icon,.btn-secondary .fake-svg-icon,.btn-secondary:disabled .fake-svg-icon{color:#3d464d}
+.btn-secondary.btn-loading:not(:disabled):not(.disabled),.btn-secondary.btn-loading:not(:disabled):not(.disabled).active,.btn-secondary.btn-loading:not(:disabled):not(.disabled):active{cursor:default;border-color:#f0f0f0;background:#f0f0f0}
+.btn-light.focus,.btn-light:focus,.btn-light:hover{border-color:#f0f0f0;background:#f0f0f0;color:#3d464d;fill:#3d464d}.btn-light.focus .fake-svg-icon,.btn-light:focus 
+.fake-svg-icon,.btn-light:hover .fake-svg-icon{color:#3d464d}
+.btn-light.focus,.btn-light:focus{box-shadow:none}
+.btn-light:not(:disabled):not(.disabled).active,.btn-light:not(:disabled)
+:not(.disabled):active{border-color:#e5e5e5;background:#e5e5e5;color: #3d464d;fill:#3d464d}
+.btn-light:not(:disabled):not(.disabled).active .fake-svg-icon,.btn-light:not(:disabled):not(.disabled):active .fake-svg-icon{color:#3d464d}
+.btn-light:not(:disabled):not(.disabled).active:focus,.btn-light:not(:disabled):not(.disabled):active:focus{ box-shadow:none}
+.btn-light,.btn-light.disabled,.btn-light:disabled{border-color:transparent;background:transparent;color:#3d464d;fill:#ccc}
+.btn-light.disabled .fake-svg-icon,.btn-light .fake-svg-icon,.btn-light:disabled .fake-svg-icon{color:#ccc}.btn-light.btn-loading:not(:disabled):not(.disabled),.btn-light.btn-loading:not(:disabled):not(.disabled).active,.btn-light.btn-loading:not(:disabled):not(.disabled):active{cursor:default;border-color:transparent;background:transparent}.btn-loading{position:relative}
